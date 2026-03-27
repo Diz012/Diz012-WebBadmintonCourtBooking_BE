@@ -1,0 +1,30 @@
+# ========== Tùy chỉnh cho dự án WebBCB BE ==========
+# Các file chứa thông tin nhạy cảm (JWT Key, Connection String, ClientID/Secret)
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+*.env
+
+# Các file cơ sở dữ liệu và script export
+court_booking.db
+export.sql
+
+# Các file log và file test cá nhân
+build_*.txt
+build_*.log
+runtime_log*.txt
+test.csx
+
+# Thư mục lưu trữ hình ảnh upload từ người dùng (nếu có)
+wwwroot/images/
+wwwroot/uploads/
+
+# ========== Chuẩn .NET Core ==========
+bin/
+obj/
+
+# ========== Visual Studio / Editors ==========
+.vs/
+.vscode/
+*.suo
+*.user
